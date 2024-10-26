@@ -32,6 +32,10 @@ github_username: m0seng
 theme: minima
 plugins:
   - jekyll-feed
+  - jemoji
+
+minima:
+  skin: auto
 
 # Exclude from processing.
 # The following items will not be processed, by default.
