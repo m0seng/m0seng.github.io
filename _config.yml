@@ -22,6 +22,7 @@ title: m0seng's abode
 email: ngsunghim@hotmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   where m0seng does things
+
 domain: "m0seng.github.io"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://m0seng.github.io" # the base hostname & protocol for your site, e.g. http://example.com
@@ -29,13 +30,13 @@ twitter_username: m0seng
 github_username: m0seng
 
 # Build settings
-theme: minima
+remote_theme: jekyll/minima
 plugins:
   - jekyll-feed
   - jemoji
 
 minima:
-  skin: dark
+  skin: auto
 
 # Exclude from processing.
 # The following items will not be processed, by default.
